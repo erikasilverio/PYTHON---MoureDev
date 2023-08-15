@@ -51,6 +51,13 @@ print(name)
 print(age)
 
 
+# Forzamos el tipo?
+
+address: str = "Mi Direccion"
+address = 32
+print(type(address))
+
+
 
 
 
