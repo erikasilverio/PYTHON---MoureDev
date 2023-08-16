@@ -35,9 +35,18 @@ print(3 != 4)
 
 print("Hola" > "Python")
 print("Hola" < "Python")
-print("Hola" >= "Python")
-print("Hola" >= "Python")
+print("aaaa" >= "abaa") # ORDENACIÓN ALFABETICA
+print(len("aaaa") >= len("abaa")) # CUENTA CARACTERES CON O LEN
 print("Hola" == "Python")
 print("Hola" != "Python")
 
 
+### Operadores Logicos ###
+
+print(3 > 4 and "Hola" > "Python")
+print(3 > 4 or "Hola" > "Python")
+print(3 < 4 and "Hola" < "Python")
+print(3 < 4 or "Hola" > "Python")
+print(3 < 4 or("Hola" > "Python" and 4 == 4))
+
+print(not( 3 > 4 ))
