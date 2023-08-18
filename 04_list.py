@@ -30,6 +30,10 @@ print(my_list.count(30)) # conta quantas vezes repite
 # print(my_other_list[4]) IndexError
 # print(my_other_list[-5]) IndexError
 
+
+print(my_list.index("Erika"))
+
+
 age, height, name, surname = my_other_list
 print(name)
 
@@ -82,6 +86,20 @@ my_new_list = my_list.copy()  # faz uma copia para outra variavel, dos valores q
 my_list.clear()  # apaga toda a lista
 print(my_list)
 print(my_new_list)
+
+
+my_new_list.reverse()  # mostra a mostra ao reves
+print(my_new_list)
+
+my_new_list.sort() # ordena a lista, em maior ou menor
+print(my_new_list)
+
+
+
+
+print(my_new_list[1:3])  # sublistas, selecionando espacos que mostras
+
+
 
 
 
